@@ -1,5 +1,8 @@
+// @main annotation
 @main def hello: Unit = 
+  // optional braces
   println("Hello world!")
   println(msg)
 
-def msg = "I was compiled by Scala 3. :)"
+// top-level definition
+def msg = "I was compiled by Scala 3. :)" 
